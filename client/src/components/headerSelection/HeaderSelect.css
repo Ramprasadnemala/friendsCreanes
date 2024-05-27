@@ -1,0 +1,48 @@
+.navbar2001 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  Link{
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .nav-logo2001 {
+    font-size: 1.5rem;
+  }
+  
+  .nav-links2001 {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links2001 li {
+    margin-right: 20px;
+  }
+  
+  .nav-links2001 a {
+    color: #fff;
+    text-decoration: none;
+    
+  }
+
+
+  .login2001{
+    border-radius: 8px;
+    background-color: orange;
+    color: aliceblue;
+    padding: 5px 7px;
+  }
+  
+  /* Media query for mobile responsiveness */
+  @media screen and (max-width: 768px) {
+    .nav-links2001 {
+      display: none;
+    }
+  }
+  
