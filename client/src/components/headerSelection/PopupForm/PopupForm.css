@@ -1,0 +1,65 @@
+.popup2002 {
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+
+  }
+  
+  .popup-inner2002 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .popup-inner2002 h2{
+    text-align: center;
+    margin-bottom: -9px;
+  }
+  hr{
+    background-color:orange;
+    height: 2px;
+    border: none;
+  }
+  
+  .close-btn2002 {
+    position: absolute;
+    top: -15px;
+    font-size: 25px;
+    right: 5px;
+    color: red;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label{
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-group label::first-letter{
+    color: orange;
+  }
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color:orange;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,129 @@
+
+.logos {
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 15px 0 50px 0;
+    /* background: white; */
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 180px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos:hover .logos-slide {
+    animation-play-state: paused;
+  }
+  
+  .logos-slide {
+    display: inline-block;
+    animation:avinash 20s infinite linear;
+  }
+  
+  .logos-slide img {
+    height: 23vh;
+    width:18vw;
+    margin: 0 8px;
+  }
+  
+  @keyframes avinash {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @media (min-width:900px) and (max-width:1100px){
+    .logos-slide img {
+      height: 20vh;
+      width:17vw;
+      margin: 0 7px;
+    }
+    
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 180px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  } 
+  
+  @media (min-width:680px) and (max-width:900px){
+    .logos-slide img {
+      height: 19vh;
+      width:18vw;
+      margin: 0 6px;
+    }
+    
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 180px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  } 
+  
+  @media (min-width:500px) and (max-width:680px){
+    .logos-slide img {
+      height: 16vh;
+      width:16vw;
+      margin: 0 5px;
+    }
+    
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  } 
+  
+  @media (max-width:500px){
+    .logos-slide img {
+      height: 15vh;
+      width:20vw;
+      margin: 4px;
+    }
+    
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  } 
+  
+  
+  
