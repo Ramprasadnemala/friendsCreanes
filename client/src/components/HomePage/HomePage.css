@@ -1,8 +1,0 @@
-.homepage-container {
-  background-image: url('https://imgs.search.brave.com/7wk447KugKre1bFprIOCqILHrW4v8SYlM_Xccj8D_LQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdDIu/ZGVwb3NpdHBob3Rv/cy5jb20vMTA2MTQ0/NS83NDIwL2kvNDUw/L2RlcG9zaXRwaG90/b3NfNzQyMDI1MDUt/c3RvY2stcGhvdG8t/bW9iaWxlLWNyYW5l/LmpwZw');
-  background-size: cover; /* Ensures the background image covers the entire container */
-  background-position: center; /* Centers the background image */
-  height: 70vh;
-  width: 100vw;
-}
-  
