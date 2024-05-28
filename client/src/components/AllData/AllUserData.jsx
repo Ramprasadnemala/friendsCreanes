@@ -32,7 +32,7 @@ const AllUserData = () => {
     };
 
     try {
-      const response = await fetch('http://localhost:5000/employees/add-emp', {
+      const response = await fetch('http://localhost:3000/employees/add-emp', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

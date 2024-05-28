@@ -13,7 +13,7 @@ const AllData = () => {
     useEffect(() => {
         const getData = async () => {
           try {
-            const response = await fetch('http://localhost:5000/employees/allemployees');
+            const response = await fetch('http://localhost:3000/employees/allemployees');
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }

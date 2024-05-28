@@ -56,7 +56,7 @@ const app = express();
 dotEnv.config();
 
 // Define the port from the environment variables or default to 5000
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
